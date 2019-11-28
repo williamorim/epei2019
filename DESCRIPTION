@@ -1,0 +1,20 @@
+Package: epei2019
+Title: Pacote do EPEI 2019 (One Line, Title Case)
+Version: 0.1.0
+Authors@R: 
+    person(given = "William",
+           family = "Amorim",
+           role = c("aut", "cre"),
+           email = "wamorim@curso-r.com",
+           comment = c(ORCID = "123"))
+Description: Pacote exemplo feito no EPEI 2019.
+License: MIT + file LICENSE
+Encoding: UTF-8
+LazyData: true
+Imports: 
+    purrr,
+    readr,
+    usethis
+RoxygenNote: 6.1.1
+Suggests: 
+    testthat (>= 2.1.0)
